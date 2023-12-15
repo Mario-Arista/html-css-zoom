@@ -62,6 +62,7 @@
 body {
 
     background-color: black;
+    display: block;
 }
 
 /* END Body Background color black  */
@@ -106,7 +107,7 @@ body {
     
 }
 
-.speaker-view iconify-icon:last-child {
+.speaker-view i:last-child {
     display: inline-block;
 
     filter: brightness(1.5);
@@ -119,4 +120,64 @@ body {
     vertical-align: middle;
 
     background-color: #4A4A4A;
+}
+
+/*  Main with videos  */
+
+.container {
+
+    flex-wrap: wrap;
+
+    width: 90%;
+    height: 70%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 80px;
+
+
+    background-color: red;
+}
+
+.container .person {
+
+    width: calc(100 / 6);
+
+    background-color: white;
+} 
+
+.container .person div {
+    position: relative;
+
+}
+
+.container .person div img {
+    display: block;
+    width: 100%;
+}
+
+.container .person div .nome-cognome {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+    padding: 6px;
+
+    filter: brightness(1.5);
+
+    font-size: 0.8em;
+
+    color: white;
+    background-color: rgba(63, 61, 61, 0.5);
+    
+}
+
+
+.container .person div .nome-cognome span {
+    vertical-align: middle;
+}
+
+.container .person div .nome-cognome iconify-icon {
+    vertical-align: middle;
 }
