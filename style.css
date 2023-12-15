@@ -17,6 +17,11 @@
     top: 0px;
 }
 
+.bottom-fixed {
+    bottom: 0px;
+}
+
+
 .ps-absolute {
     position: absolute;
 }
@@ -51,3 +56,67 @@
 }
 
 /* END Classes for FLEX  */
+
+/* Body Background color black  */
+
+body {
+
+    background-color: black;
+}
+
+/* END Body Background color black  */
+
+/* Element Top Fixed  */
+
+
+
+/* END Element Top Fixed  */
+
+.speaker-view {
+    top: 4px;
+    right: 4px;
+    color: white;
+}
+
+.speaker-view div {
+    display: inline-block;
+
+    filter: brightness(1.5);
+    
+    margin-right: 4px;
+
+    padding: 4px;
+
+    border-radius: 5px;
+
+    font-size: 0.8em;
+    background-color: #4A4A4A;
+}
+
+.speaker-view div iconify-icon {
+    font-size: 0.3;
+    vertical-align: middle;
+}
+
+.speaker-view div span {
+
+    vertical-align: middle;
+    
+    font-size: 0.3;
+    
+}
+
+.speaker-view iconify-icon:last-child {
+    display: inline-block;
+
+    filter: brightness(1.5);
+    
+    padding: 4px;
+
+    border-radius: 5px;
+
+    font-size: 0.3;
+    vertical-align: middle;
+
+    background-color: #4A4A4A;
+}
