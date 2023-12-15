@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
 /* Reset Rules  */
 
 /* Classes for POSITION  */
@@ -62,20 +63,16 @@
 body {
 
     background-color: black;
-    display: block;
+    display: absolute;
 }
 
 /* END Body Background color black  */
 
 /* Element Top Fixed  */
 
-
-
-/* END Element Top Fixed  */
-
 .speaker-view {
-    top: 4px;
-    right: 4px;
+    top: 5px;
+    right: 6px;
     color: white;
 }
 
@@ -107,7 +104,7 @@ body {
     
 }
 
-.speaker-view i:last-child {
+.speaker-view i {
     display: inline-block;
 
     filter: brightness(1.5);
@@ -121,6 +118,31 @@ body {
 
     background-color: #4A4A4A;
 }
+
+/* END Element Top Fixed  */
+
+/* Element fixex at the bottom  */
+
+.player-container {
+
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+    width: 100%;
+
+    background-color: #222222;
+    color: white;
+}
+
+.player-container .row-player {
+    
+}
+
+
+
+/* END Element fixex at the bottom  */
+
 
 /*  Main with videos  */
 
@@ -191,3 +213,5 @@ body {
 .container .person div .nome-cognome iconify-icon {
     vertical-align: middle;
 }
+
+
