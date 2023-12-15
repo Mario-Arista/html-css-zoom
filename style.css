@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* Reset Rules  */
+
+/* Classes for POSITION  */
+
+.ps-fixed {
+    position: fixed;
+    top: 0px;
+}
+
+.top-fixed {
+    top: 0px;
+}
+
+.ps-absolute {
+    position: absolute;
+}
+
+.ps-relative {
+    position: relative;
+}
+
+.z-index-one {
+    z-index: 1;
+}
+
+.z-index-two {
+    z-index: 2;
+}
+
+.z-index-three {
+    z-index: 3;
+}
+
+/* END Classes for POSITION  */
+
+/* Classes for FLEX  */
+
+.flex {
+    display: flex;
+}
+
+.centered {
+    justify-content: center;
+    align-items: center;
+}
+
+/* END Classes for FLEX  */
