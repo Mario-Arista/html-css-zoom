@@ -115,6 +115,7 @@ body {
 
 /* Element fixex at the bottom  */
 
+
 .player-container {
     justify-content: space-between;
 
@@ -133,54 +134,78 @@ body {
     color: white;
 }
 
-.player-container .first {
+/* First part of bottom elem. fixed  */
+
+.player-container .first-part {
+    justify-content: space-around;
+
     align-items: center;
     gap: 10px;
+    
+    width: 200px;
+
+    margin-left: 5px;
+
 }
 
-.player-container .first .mute {
+.player-container .first-part .microphone-video {
     flex-direction: column;
+    align-items: center;
 
-    margin-right: 15px;
-    margin-left: 15px;
+}
+
+.player-container .first-part .mute iconify-icon {
+    
+    font-size: 1.7em;
+    padding-bottom: 8px;
+}
+
+.player-container .first-part .stop iconify-icon {
+    
+    font-size: 1.4em;
+    padding-bottom: 12px;
+    padding-top: 6px;
+
+}
+
+.player-container .first-part .microphone-video span {
+
+    font-size: 0.8em;
+}
+
+/* .player-container .first .mute div {
+
+    align-items: center;
+
+} */
+
+/* .player-container .first .mute {
+
+    width: 20px;
+
 }
 
 .player-container .first .mute iconify-icon {
+    display: inline-block;
 
-    width: 15px;
+    width: 20px;
     
     font-size: 1.4em;
     padding-bottom: 10px;
-    padding-left: 6px;
+    padding-left: 5px;
 
 }
 
 .player-container .first .mute span {
-    font-size: 0.8em;
-}
-
-.player-container .first .arrow {
-
-}
-.player-container .first .stop {
-    flex-direction: column;
-
-}
-
-.player-container .first .stop iconify-icon {
     display: inline-block;
-    width: 15px;
-    
-    font-size: 1.3em;
-    padding-bottom: 10px;
-    padding-left: 14px;
-}
 
-.player-container .first .stop span {
+    align-items: center;
 
     font-size: 0.8em;
-}
+} */
 
+
+/* Third part of bottom elem. fixed  */
 
 .player-container .third {
     
