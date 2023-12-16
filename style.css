@@ -117,6 +117,7 @@ body {
 
 
 .player-container {
+
     justify-content: space-between;
 
     position: fixed;
@@ -128,6 +129,7 @@ body {
     right: 0px;
 
     width: 100%;
+    height: 80px;
 
 
     background-color: #222222;
@@ -140,13 +142,12 @@ body {
     justify-content: space-around;
 
     align-items: center;
-    gap: 10px;
-    
+    gap: 15px;
     width: 200px;
-
-    margin-left: 5px;
+    margin-left: 15px;
 
 }
+
 
 .player-container .first-part .microphone-video {
     flex-direction: column;
@@ -154,13 +155,8 @@ body {
 
 }
 
-.player-container .first-part .mute iconify-icon {
-    
-    font-size: 1.7em;
-    padding-bottom: 8px;
-}
 
-.player-container .first-part .stop iconify-icon {
+.player-container .first-part .microphone-video iconify-icon {
     
     font-size: 1.4em;
     padding-bottom: 12px;
@@ -173,37 +169,50 @@ body {
     font-size: 0.8em;
 }
 
-/* .player-container .first .mute div {
+/* Second part of bottom elem. fixed  */
+
+.player-container .second-part {
+
+
+    justify-content: center;
+    
 
     align-items: center;
-
-} */
-
-/* .player-container .first .mute {
-
-    width: 20px;
+    gap: 15px;
+    flex-grow: 1;
+    position: relative;
 
 }
 
-.player-container .first .mute iconify-icon {
-    display: inline-block;
+.player-container .second-part .settings {
+    flex-direction: column;
+    align-items: center;
 
-    width: 20px;
+}
+
+.player-container .second-part .settings iconify-icon {
+    
+    font-size: 1.7em;
+    padding-bottom: 8px;
+}
+
+
+.player-container .second-part .settings iconify-icon {
     
     font-size: 1.4em;
-    padding-bottom: 10px;
-    padding-left: 5px;
+    padding-bottom: 12px;
+    padding-top: 6px;
 
 }
 
-.player-container .first .mute span {
-    display: inline-block;
-
-    align-items: center;
+.player-container .second-part .settings span {
 
     font-size: 0.8em;
-} */
+}
 
+.player-container .second-part .settings:nth-child(4) iconify-icon {
+    color: #5AC231;
+}
 
 /* Third part of bottom elem. fixed  */
 
@@ -212,12 +221,14 @@ body {
 
     background-color: #373737;
     color: red;
+
     width: 110px;
-    height: 80px;
+    height: 100%;
 
     font-size: 0.8em;
 
 }
+
 
 /* END Element fixex at the bottom  */
 
