@@ -249,13 +249,14 @@ body {
     flex-wrap: wrap;
 
     width: 90%;
-    height: 70%;
+    height: 70vh;
 
     margin-left: auto;
     margin-right: auto;
 
     margin-top: 80px;
 
+    overflow-y: auto;
 }
 
 .container .person {
