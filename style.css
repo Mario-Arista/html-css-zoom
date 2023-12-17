@@ -118,8 +118,6 @@ body {
 
 .player-container {
 
-    justify-content: space-between;
-
     position: fixed;
     z-index: 1;
 
@@ -127,18 +125,28 @@ body {
     
     bottom: 0px;
     right: 0px;
-
     width: 100%;
-    height: 80px;
+
 
 
     background-color: #222222;
     color: white;
 }
 
+.player-container .player-row {
+
+
+    justify-content: space-between;
+    align-items: center;
+
+    height: 80px;
+
+    
+}
+
 /* First part of bottom elem. fixed  */
 
-.player-container .first-part {
+.player-container .player-row .first-part {
     justify-content: space-around;
 
     align-items: center;
@@ -149,14 +157,14 @@ body {
 }
 
 
-.player-container .first-part .microphone-video {
+.player-container .player-row .first-part .microphone-video {
     flex-direction: column;
     align-items: center;
 
 }
 
 
-.player-container .first-part .microphone-video iconify-icon {
+.player-container .player-row .first-part .microphone-video iconify-icon {
     
     font-size: 1.4em;
     padding-bottom: 12px;
@@ -164,15 +172,16 @@ body {
 
 }
 
-.player-container .first-part .microphone-video span {
+.player-container .player-row .first-part .microphone-video span {
 
     font-size: 0.8em;
 }
 
 /* Second part of bottom elem. fixed  */
 
-.player-container .second-part {
+.player-container .player-row .second-part {
 
+    margin: 0 auto;
 
     justify-content: center;
     
@@ -184,20 +193,20 @@ body {
 
 }
 
-.player-container .second-part .settings {
+.player-container .player-row .second-part .settings {
     flex-direction: column;
     align-items: center;
 
 }
 
-.player-container .second-part .settings iconify-icon {
+.player-container .player-row .second-part .settings iconify-icon {
     
     font-size: 1.7em;
     padding-bottom: 8px;
 }
 
 
-.player-container .second-part .settings iconify-icon {
+.player-container .player-row .second-part .settings iconify-icon {
     
     font-size: 1.4em;
     padding-bottom: 12px;
@@ -205,18 +214,18 @@ body {
 
 }
 
-.player-container .second-part .settings span {
+.player-container .player-row .second-part .settings span {
 
     font-size: 0.8em;
 }
 
-.player-container .second-part .settings:nth-child(4) iconify-icon {
+.player-container .player-row .second-part .settings:nth-child(4) iconify-icon {
     color: #5AC231;
 }
 
 /* Third part of bottom elem. fixed  */
 
-.player-container .third {
+.player-container .player-row .third {
     
 
     background-color: #373737;
